@@ -1,16 +1,38 @@
 .App-Header-Row {
-    background-color: darkblue;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  background: linear-gradient(90deg, rgb(10, 10, 30), rgb(0, 0, 80), rgb(10, 10, 30));
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease;
 }
 
-.App-Header-Row .menu{
-    display: inline-block;
-    margin: 5px;
+.App-Header-Row:hover {
+  background: linear-gradient(90deg, rgb(20, 20, 40), rgb(0, 0, 100), rgb(20, 20, 40));
 }
 
-.App-Header-Menu-Text{
-    color:white
+.App-Header-Row .menu {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.App-Header-Row .menu:hover {
+  color: #00eaff;
+  transform: scale(1.05);
+}
+
+.App-Header-Menu-Text {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.App-Header-Menu-Text:hover {
+  color: #ffc107;
 }

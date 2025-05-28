@@ -1,4 +1,15 @@
-.App-Footer{
-    background-color: silver;
-    padding: 10px;
+.App-Footer {
+  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(40, 40, 40), rgb(0, 0, 0));
+  padding: 15px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.App-Footer:hover {
+  background: linear-gradient(90deg, rgb(10, 10, 10), rgb(60, 60, 60), rgb(10, 10, 10));
 }

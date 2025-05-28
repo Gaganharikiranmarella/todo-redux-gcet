@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="App-Header-Row">
       <div>
-        <h1>My Redux App</h1>
+        <h1>Gagan's Redux App</h1>
       </div>
       <div>
         <ul>
